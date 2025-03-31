@@ -1,7 +1,7 @@
 #include <student.h>
-int biggest(int number1, int number2) {
+int simple_parentheses(char * str) {
   int b;
-  // TODO: escreva uma expressao retornar o maior valor absoluto entre number1 e number2.
-          
+  // TODO: escreva uma expressao para verificar se a string str esta parentisada corretamente.
+  
   return b;
 }

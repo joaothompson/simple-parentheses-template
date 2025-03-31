@@ -3,9 +3,10 @@
 
 int main(void)
 {
-  int number1, number2, total;
-  scanf("%d %d", &number1, &number2);
-  total = biggest(number1, number2);
+  char str[129];
+  int total;
+  scanf("%s", str);
+  total = simple_parentheses(str);
   printf("%d\n", total);
   return 0;
 }
