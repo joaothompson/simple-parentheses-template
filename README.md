@@ -1,5 +1,5 @@
-# Biggest number-exercise-template
-Biggest number Exercise Template
+# Simple Parentheses Exercise - template
+Simple Parentheses Exercise Template
 
 # Identificação
 Nome: <Seu Nome?>
@@ -7,13 +7,16 @@ Nome: <Seu Nome?>
 Matrícula: <Sua Matrícula>
 
 # Instruções
-Neste exercício você deve escrever uma função que recebe dois valores inteiros e informa qual dos dois possui o maior valor absoluto.
+Neste exercício você deve escrever uma função que recebe um vetor de caracteres e informa se todos os parenteses foram abertos e fechados em ordem correta.
 
 1. Altere este Readme para conter o seu nome e matrícula.
 2. Modifique a função dentro do arquivo student.c
 
 # Exemplos
-1. Quando recebe -30 e 10, sua função deve retornar -30.
-2. Quando recebe -30 e 50, sua função deve retornar 50.
-3. Quando recebe -10 e 10, sua função deve retornar 10.
+1. Quando recebe "()", sua função deve retornar 1.
+2. Quando recebe "" - string vazia, sua função deve retornar 1.
+3. Quando recebe "()()()((()))", sua função deve retornar 1.
+4. Quando recebe "()(()()", sua função deve retornar 0.
+5. Quando recebe ")(", sua função deve retornar 0.
+6. Quando recebe "(", sua função deve retornar 0.
 
